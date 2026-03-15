@@ -1,0 +1,133 @@
+:root {
+    --primary-font: "Inter";
+    --secondry-font: "Poppins";
+    --color-white: #FFFFFF;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+figcaption,
+hgroup,
+menu,
+footer,
+header,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+/* Hero section start  */
+.hero__inner {
+    position: relative;
+}
+
+.hero__bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__content {
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 192px 0 234px;
+
+}
+
+.hero__box-content {
+    background-color: #fdfcf4;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-width: 3px 3px 6px;
+    border-radius: 12px 12px 14px;
+    box-shadow: #00000040 4px 4px 16px;
+    margin-left: 120px;
+    border-color: #0b3334;
+    border-style: solid;
+}
+
+.hero__box-content .heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 59px;
+    align-items: center;
+    color: #004236;
+}
+
+/* Heading 1 → Meat Delivered. */
