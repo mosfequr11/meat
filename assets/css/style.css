@@ -181,7 +181,39 @@ a.banner-btn {
 
 /* Hero Section End  */
 
+
+/* Certified Section Start  */
+.certified__inner {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px solid #004236;
+}
+
+.certified__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certified__content {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.certified__title {
+    font-size: 20px;
+    line-height: 33px;
+    color: #0B3334;
+    font-weight: 400;
+}
+
+/* Certified Section End  */
+
 @media screen and (max-width: 768px) {
+
+    /* Hero section start  */
     .hero__box-content {
         max-width: fit-content;
     }
@@ -194,6 +226,19 @@ a.banner-btn {
         font-size: 40px;
         line-height: 40px;
 
+    }
+
+    /* Hero section end  */
+
+    .certified__items {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .certified__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
