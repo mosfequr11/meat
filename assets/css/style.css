@@ -211,6 +211,64 @@ a.banner-btn {
 
 /* Certified Section End  */
 
+/* About Section Start */
+.about__inner {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.about__wrap {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.about__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__content .heading {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 40px;
+    align-items: center;
+    color: #004236;
+    margin-bottom: 20px;
+}
+
+.about__content .about-text {
+    color: #0B3334;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-btn {
+    font-size: 27px;
+    color: #0B3334;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FDFCF4;
+    border: 3px solid #004236;
+    border-width: 3px 3px 5px 3px;
+    border-radius: 12px;
+    box-shadow: #00000040 4px 4px 16px;
+}
+
+/* About Section End */
+
+/* -------- responsive -------- */
 @media screen and (max-width: 768px) {
 
     /* Hero section start  */
@@ -230,6 +288,7 @@ a.banner-btn {
 
     /* Hero section end  */
 
+    /* Certified section start  */
     .certified__items {
         flex-direction: column;
         row-gap: 30px;
@@ -240,5 +299,25 @@ a.banner-btn {
         flex-direction: column;
         align-items: center;
     }
+
+    /* Certified section end  */
+
+    /* About section start */
+    .about__inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about__wrap {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .about__content {
+        width: 100%;
+
+    }
+
+    /* About section end */
 
 }
