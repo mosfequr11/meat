@@ -146,7 +146,7 @@ body {
 }
 
 .hero__box-content .heading {
-    font-family: 'Inter';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
@@ -268,6 +268,69 @@ a.banner-btn {
 
 /* About Section End */
 
+/* Join Section Start */
+section.join {
+    background-color: #0B3334;
+}
+
+.join__inner {
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto;
+    background: #0B3334;
+    padding: 40px 0;
+}
+
+.join__heading {
+    margin-bottom: 40px;
+}
+
+.join__heading h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+}
+
+.join__wrapper {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+.join__item {
+    background-color: #FDFCF4;
+    padding: 30px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.join__img-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join__text-content h4 {
+    color: #0B3334;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.join__text-content p {
+    color: #0B3334;
+    text-align: center;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    margin-top: 15px;
+}
+
+/* Join Section End */
+
 /* -------- responsive -------- */
 @media screen and (max-width: 768px) {
 
@@ -319,5 +382,21 @@ a.banner-btn {
     }
 
     /* About section end */
+
+    /* Join section start */
+    .join__wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .join__heading h2 {
+        font-size: 32px;
+    }
+
+    .join__item {
+        margin: 0 15px;
+    }
+
+    /* Join section end */
 
 }
