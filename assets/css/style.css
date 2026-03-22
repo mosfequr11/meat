@@ -139,10 +139,11 @@ body {
     max-width: 500px;
     padding: 30px;
     border-width: 3px 3px 6px;
-    border-radius: 12px 12px 14px;
-    box-shadow: #00000040 4px 4px 16px;
     border-color: #0b3334;
     border-style: solid;
+    border-radius: 12px 12px 14px;
+    box-shadow: #00000040 4px 4px 16px;
+
 }
 
 .hero__box-content .heading {
@@ -168,7 +169,7 @@ body {
     font-weight: 600;
 }
 
-a.banner-btn {
+.banner-btn {
     display: inline-block;
     background-color: #004236;
     color: #fff;
@@ -269,7 +270,7 @@ a.banner-btn {
 /* About Section End */
 
 /* Join Section Start */
-section.join {
+.join {
     background-color: #0B3334;
 }
 
@@ -277,8 +278,7 @@ section.join {
     max-width: 1590px;
     width: 100%;
     margin: 0 auto;
-    background: #0B3334;
-    padding: 40px 0;
+    padding: 40px 0 60px;
 }
 
 .join__heading {
@@ -327,6 +327,25 @@ section.join {
     font-weight: 400;
     font-family: var(--primary-font);
     margin-top: 15px;
+}
+
+.join__btn {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.join__btn .btn {
+    color: #0B3334;
+    background-color: #ffffff;
+    padding: 21px 60px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-width: 3px 3px 6px;
+    border-color: #0b3334;
+    border-style: solid;
+    border-radius: 12px;
 }
 
 /* Join Section End */
@@ -395,6 +414,10 @@ section.join {
 
     .join__item {
         margin: 0 15px;
+    }
+
+    .join__btn .btn {
+        font-size: 18px;
     }
 
     /* Join section end */
