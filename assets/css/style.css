@@ -366,7 +366,9 @@ body {
 .the-box__wrapper {
     display: flex;
     column-gap: 30px;
+    row-gap: 30px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .the-box__heading {
@@ -395,6 +397,8 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    max-width: calc(100% / 3 - 45px);
+    flex: 1 0 25%;
 }
 
 .the-box__list-item {
@@ -510,6 +514,9 @@ body {
         font-size: 38px;
     }
 
+    .the-box__item {
+        max-width: 100%;
+    }
     /* the-box section end */
 
 }
