@@ -426,6 +426,71 @@ body {
 
 /* the-box Section End */
 
+
+/* Subscribe Section Start  */
+.subscribe__inner {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.subscribe__wrap {
+    display: flex;
+    column-gap: 30px;
+}
+
+.subscribe__image {
+    max-width: calc(100% / 2 - 15px);
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: calc(100% / 2 - 15px);
+    width: 100%;
+    border-style: solid;
+    background-color: #fdfcf4;
+    border-color: #0b3334;
+    border-width: 3px 3px 6px;
+    border-radius: 12px 12px 14px;
+    box-shadow: #00000040 4px 4px 16px;
+    padding: 25px;
+}
+
+.subscribe__form h2 {
+    color: #0B3334;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subscribe__form p {
+    color: #0B3334;
+    font-size: 23px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.subscribe__input {
+    color: #0B3334;
+    font-size: 18px;
+    border: 2px solid #0B3334;
+    border-radius: 12px;
+    padding: 10px 0 10px 15px;
+}
+
+.subscribe__btn {
+    color: #0B3334;
+    font-size: 18px;
+    border: 2px solid #0B3334;
+    border-radius: 12px;
+    padding: 10px 0;
+}
+
+/* Subscribe Section End  */
+
 /* -------- responsive -------- */
 @media screen and (max-width: 768px) {
 
@@ -517,6 +582,7 @@ body {
     .the-box__item {
         max-width: 100%;
     }
+
     /* the-box section end */
 
 }
