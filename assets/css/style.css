@@ -561,7 +561,7 @@ body {
     }
 
     .hero__content {
-        padding: 90px 15px 100px;
+        padding: 90px 0px 100px;
     }
 
     .hero__box-content .heading {
@@ -587,9 +587,9 @@ body {
     /* Certified section end  */
 
     /* About section start */
-    .about__inner {
-        padding-left: 15px;
-        padding-right: 15px;
+    .about__content .heading {
+        font-size: 34px;
+        line-height: 36px;
     }
 
     .about__wrap {
@@ -614,12 +614,11 @@ body {
         font-size: 32px;
     }
 
-    .join__item {
-        margin: 0 15px;
-    }
-
     .join__btn .btn {
         font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        padding: 20px 0;
     }
 
     /* Join section end */
@@ -627,7 +626,6 @@ body {
     /* the-box section start */
     .the-box__wrapper {
         flex-direction: column;
-        margin: 0 15px;
         row-gap: 30px;
     }
 
@@ -677,6 +675,7 @@ body {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+        row-gap: 50px;
     }
 
     .ready__btn a {
