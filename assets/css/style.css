@@ -501,7 +501,7 @@ body {
     max-width: 1290px;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 0 50px;
 }
 
 .ready__wrap {
@@ -550,7 +550,7 @@ body {
 .icon-text__inner {
     max-width: 1290px;
     margin: 0 auto;
-    padding: 50px 0 90px;
+    padding: 50px 0 60px;
 }
 
 
@@ -727,9 +727,21 @@ body {
 
     /* Ready section end  */
 
+    /* Icon with text Section start  */
+    .ready__inner {
+        padding: 40px 0 90px;
+    }
+
     .icon-text__items {
         flex-direction: column;
-        row-gap: 30px;
+        row-gap: 40px;
     }
+
+    .icon-text__item {
+        max-width: 100%;
+        row-gap: 10px;
+    }
+
+    /* Icon with text Section end  */
 
 }
