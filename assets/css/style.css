@@ -544,7 +544,6 @@ body {
 /* Icon with text Section Start  */
 .icon-text {
     background-color: #fdfcf4;
-    margin-bottom: 200px;
 }
 
 .icon-text__inner {
@@ -584,6 +583,34 @@ body {
 }
 
 /* Icon with text Section End  */
+
+/* Footer Section Start  */
+.footer {
+    background-color: #0B3334;
+}
+
+.footer__inner {
+    max-width: 1590px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 60px;
+}
+
+.footer__column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item h4 {
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+}
+
+/* Footer Section End  */
 
 /* -------- responsive -------- */
 @media (min-width: 1024px) {
