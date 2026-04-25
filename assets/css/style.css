@@ -623,6 +623,25 @@ body {
     column-gap: 20px;
 }
 
+.footer__item .links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer__item .links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FDFCF4;
+
+}
+
+.footer__item .links a:hover {
+    color: #d8ca5a;
+}
+
 /* Footer Section End  */
 
 /* -------- responsive -------- */
@@ -783,5 +802,13 @@ body {
     }
 
     /* Icon with text Section end  */
+
+    /* Footer section start  */
+    .footer__column {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    /* Footer section end  */
 
 }
