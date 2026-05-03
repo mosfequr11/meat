@@ -120,8 +120,22 @@ body {
 
 .header__nav {
     display: flex;
-    column-gap: 20px;
+    column-gap: 25px;
     align-items: center;
+}
+
+.menu a {
+    font-size: 15px;
+    color: #133233;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #000000;
 }
 
 .header__right {
