@@ -105,48 +105,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Header Section Start  */
-
-.header__inner {
-    max-width: 1590px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.header__wrap {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header__nav {
-    display: flex;
-    column-gap: 25px;
-    align-items: center;
-}
-
-.menu a {
-    font-size: 15px;
-    color: #133233;
-    font-weight: 600;
-    text-decoration: none;
-    line-height: 24px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.menu a:hover {
-    color: #000000;
-}
-
-.header__right {
-    display: flex;
-    justify-content: flex-end;
-    column-gap: 20px;
-    align-items: center;
-}
-
-/* Header Section End  */
-
 /* Hero Section Start  */
 .hero__inner {
     position: relative;
